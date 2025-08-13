@@ -18,7 +18,7 @@ app.use(express.json());
 app.use('/api/auth', authRoutes);
 app.use('/api/users', usersRoutes);
 app.use('/api/patients', patientsRoutes);
-app.use('/api/appointments', appointmentsRoutes);
+app.use('/api/appointments', appointmentsRoutes); //routers ivanni
 
 app.get('/', (req, res) => res.send({ message: "API is running" }));
 
