@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; padding:20px; }
+.nav { margin-bottom: 15px; }
+.container { max-width:900px; margin:0 auto; }
+.card { padding: 12px; border: 1px solid #ddd; margin-bottom: 16px; border-radius: 6px; }
+input { display:block; margin:6px 0; padding:8px; width:100%; box-sizing:border-box; }
+button { padding:8px 12px; margin-top:8px; }
+.err { color: red; }
